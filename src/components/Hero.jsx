@@ -33,7 +33,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-amber-500/10 rounded-full blur-2xl group-hover:bg-amber-500/20 transition duration-500"></div>                  
                     <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd25oZXN0OWdhM202djd3b2ZzYXRkanpyZmh6cnR2bnkzN3VhbTNxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q6joirtIBHUsw/giphy.gif" 
                         alt="coffee logo" 
-                        className="w-72 h-72 md:w-96 md:h-96 lg:w-[420px] lg:h-[420px] object-cover rounded-full  shadow-2xl relative z-10 transition-transform duration-500 "                        />               
+                        className="w-72 h-72 md:w-96 md:h-96 lg:w-[420px] lg:h-[420px] object-cover rounded-full border-4 border-amber-500/20 shadow-2xl relative z-10 transition-transform duration-500 "                        />               
                 </div>
              </div>            
         </div>
