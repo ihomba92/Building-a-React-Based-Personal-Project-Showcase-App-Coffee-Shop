@@ -62,7 +62,7 @@ function handleOnChange(event) {
             <div className="flex flex-col space-y-2">
                <label htmlFor="type" className="text-amber-400 font-medium text-sm tracking-wide">Coffee Name:
                 </label> 
-               <input type="text" id="type" name="type" placeholder="Coffe name"
+               <input type="text" id="type" name="type" placeholder="Coffee name"
                className="w-full bg-[#2a1d16] text-[#f7f4f0] placeholder-stone-500 border border-stone-700 rounded-lg px-4 py-3 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition duration-200"
                required
                value={coffee.type}
@@ -73,7 +73,7 @@ function handleOnChange(event) {
               <div className="flex flex-col space-y-2">
                <label htmlFor="description" className="text-amber-400 font-medium text-sm tracking-wide">Description:
                </label>
-               <textarea id="description" name="description" placeholder="Coffe description"
+               <textarea id="description" name="description" placeholder="Coffee description"
                className="w-full bg-[#2a1d16] text-[#f7f4f0] placeholder-stone-500 border border-stone-700 rounded-lg px-4 py-3 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition duration-200"
               required
               value={coffee.description}
@@ -83,7 +83,7 @@ function handleOnChange(event) {
                <div className="flex flex-col space-y-2">
                <label htmlFor="origin" className="text-amber-400 font-medium text-sm tracking-wide">Origin:
                </label>
-               <input type="text" id="origin" name="origin" placeholder="Coffe origin"
+               <input type="text" id="origin" name="origin" placeholder="Coffee origin"
                className="w-full bg-[#2a1d16] text-[#f7f4f0] placeholder-stone-500 border border-stone-700 rounded-lg px-4 py-3 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 transition duration-200"
                required
                 value={coffee.origin}

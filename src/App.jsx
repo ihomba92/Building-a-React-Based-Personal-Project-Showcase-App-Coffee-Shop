@@ -11,6 +11,7 @@ function App() {
   // const[showCoffeeList, setShowCoffeeList] = useState(false);
   const [coffees, setCoffees] = useState([]);
   const[selectLocation, setSelectLocation] = useState("City Center")
+ 
   
   //function to fetch coffees from json server
   useEffect(() => {
@@ -25,9 +26,7 @@ function App() {
     setCoffees(prevCoffees => [...prevCoffees, newCoffee])
   }
 
-  // function toggleCoffeeList() {
-  //   setShowCoffeeList(true); // this switches the menu view to the coffee list when the "Explore Menu" button is clicked in the Hero component
-  // }
+  
  
   return (
     <Router>
