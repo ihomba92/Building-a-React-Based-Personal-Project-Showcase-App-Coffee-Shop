@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import SideBar from './layout/SideBar'
 import CoffeeList from './components/CoffeeList'
 import CoffeeForm from './components/CoffeeForm'
+import Footer from './layout/Footer'
 
 function App() {
   // const[showCoffeeList, setShowCoffeeList] = useState(false);
@@ -70,7 +71,8 @@ function App() {
       </main>
       </div>
   </div>
-  </Router>
+  <Footer />
+ </Router>
   )
 }
 
