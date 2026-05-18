@@ -1,6 +1,6 @@
 
 
-export default function Hero() {
+export default function Hero({onExploreMenu}) {
     return (
         <div className="w-full min-h-[70vh] bg-[#1e140f] flex flex-row items-center justify-between px-8 md:px-16 py-12 relative overflow-hidden">
             {/* the glowing background element */}
@@ -17,7 +17,9 @@ export default function Hero() {
                     Your one-stop shop for all things coffee
                 </p>
                 <div className="pt-2">
-                    <button className="bg-amber-500 text-[#1e140f] font-bold px-6 py-3 rounded-lg shadow-lg ">
+                    <button
+                    className="bg-amber-500 text-[#1e140f] font-bold px-6 py-3 rounded-lg shadow-lg "
+                    onClick={onExploreMenu}>
                         Explore Menu
                     </button>
                 </div>

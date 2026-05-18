@@ -1,0 +1,26 @@
+{
+  "coffees": [
+    {
+      "id": "1",
+      "type": "Espresso Blend",
+      "description": "Rich dark chocolate notes.",
+      "origin": "Kenya",
+      "price": "350"
+    },
+    {
+      "type": "amnm",
+      "description": "kjskAJS\nSDHDK",
+      "origin": "kampala",
+      "price": "200",
+      "id": "iDDruZFq1L8"
+    },
+    {
+      "type": "ahdjsad",
+      "description": "asjdhjsahds, wqgrjwsjda",
+      "origin": "congo",
+      "price": "120",
+      "id": "DB7rkzn2RHU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
