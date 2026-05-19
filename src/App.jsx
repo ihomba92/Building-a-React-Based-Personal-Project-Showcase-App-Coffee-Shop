@@ -1,4 +1,4 @@
-import { useState, useEffect, use  } from 'react'
+import { useState, useEffect,   } from 'react'
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
 import NavBar from './layout/NavBar'
 import Hero from './components/Hero'
@@ -14,16 +14,12 @@ function App() {
  
   const [coffees, setCoffees] = useState(() => {
     const savedCoffees = localStorage.getItem("coffees")
-    return savedCoffees ? JSON.parse(savedCoffees) : DEFAULT_COFFEES
+    const userAddedCoffees = savedCoffees ? JSON.parse(savedCoffees) : [];
+
+    const custonUserCoffees = userAddedCoffees.filter((uc) => !DEFAULT_COFFEES.some((dc) => dc.id === uc.id));
+    return [...DEFAULT_COFFEES, ...custonUserCoffees];
   });
   
-  //function to fetch coffees from json server
-  // useEffect(() => {
-  //   fetch("http://localhost:9292/coffees")
-  //   .then(response => response.json())
-  //   .then(data => setCoffees(data))
-  //   .catch(error => console.error("Error fetching coffees:", error))
-  // }, []);  
   useEffect(() => {
     localStorage.setItem("coffees", JSON.stringify(coffees))
   }, [coffees]);

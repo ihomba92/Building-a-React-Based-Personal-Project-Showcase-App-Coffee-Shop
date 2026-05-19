@@ -1,24 +1,30 @@
 
 
 
-   export const DEFAULT_COFFEES = [
+export const DEFAULT_COFFEES = [
   {
     id: "1",
     type: "Caramel Latte",
+    imageKey: "Latte (3 Steamed Milk)",
     origin: "Nyeri, Kenya",
-    description: "Rich espresso combined with sweet caramel syrup and perfectly steamed velvety milk.",
-    price: "350"
+    description: "Rich espresso combined with sweet caramel syrup and velvety milk.",
+    price: "350",
+     
   },
   {
     id: "2",
-    type: "Americano",
+    type: "Classic Macchiato",
+    imageKey: "Cortado",
     origin: "Kericho, Kenya",
-    description: "Crisp shots of espresso diluted with hot water, capturing the pure essence of the bean.",
-    price: "250"
+    description: "Espresso marked with a small dollop of micro-foam.",
+    price: "280",
+   
   },
+
   {
     id: "3",
     type: "Mocha Dream",
+    imageKey: "Mocha",
     origin: "Machakos, Kenya",
     description: "A decadent blend of premium dark chocolate sauce, rich espresso, and whipped cream.",
     price: "400"

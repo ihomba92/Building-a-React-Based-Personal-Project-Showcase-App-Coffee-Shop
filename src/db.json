@@ -41,6 +41,20 @@
       "origin": "Ghana",
       "price": "234",
       "id": "4Ec69lU-EPM"
+    },
+    {
+      "type": "kiwa",
+      "description": "ahas",
+      "origin": "adksaj",
+      "price": "67",
+      "id": "-ZMRO__Z1RA"
+    },
+    {
+      "type": "kiwa",
+      "description": "Pure coffee beans with a small add of sugar",
+      "origin": "Ruiru-kenya",
+      "price": "250",
+      "id": "D2gVpQ8_yQg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
