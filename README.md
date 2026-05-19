@@ -1,4 +1,4 @@
-Remote Hosting: [https://6a0c12180b6f363ee7b2f4a3--jolly-marshmallow-492f33.netlify.app/](https://6a0c12180b6f363ee7b2f4a3--jolly-marshmallow-492f33.netlify.app/)
+Remote Hosting: [https://6a0c1c08b104696564f7a8c2--chimerical-florentine-b75f84.netlify.app/](https://6a0c1c08b104696564f7a8c2--chimerical-florentine-b75f84.netlify.app/)
 
 
 #  LocalHostSips - Café Management Portal
